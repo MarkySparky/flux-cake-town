@@ -1,0 +1,86 @@
+@import "./normalize.css";
+
+$primary-color: #663627;
+$highlight-color: #ffa0cd;
+
+h1 {
+    color: $primary-color;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.actions button {
+    display: block;
+    margin: 0 auto;
+}
+
+.cakes {
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cake {
+    background-color: lighten($primary-color, 60);
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 1em;
+    padding: 0;
+    flex: 0 0 100%;
+}
+
+.photo-container {
+    margin-right: 1em;
+    height: 48px;
+    width: 48px;
+    overflow: hidden;
+    background-color: $highlight-color;
+}
+
+.photo {
+    width: 100%;
+    min-height: 48px;
+}
+
+.cake-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+
+    .cake-title {
+        color: $primary-color;
+        margin: 0;
+    }
+
+    .cake-desc {
+        color: lighten($primary-color, 40);
+        align-self: bottom;
+    }
+}
+
+@media (min-width: 768px) {
+    .cake {
+        flex: 0 0 30%;
+        flex-direction: column;
+    }
+
+    .cake-body {
+        padding: 8px;
+    }
+
+    .photo-container {
+        width: 100%;
+        height: 175px;
+        overflow: hidden;
+    }
+}
+
+.spinner {
+    display: block;
+    margin: 2em auto;
+}
