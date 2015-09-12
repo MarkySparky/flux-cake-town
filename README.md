@@ -1,5 +1,5 @@
 
-# Cake Town Bakery ![](images/cake_small.jpg)
+# Cake Town Bakery ![Cake Town Bakery](src/images/cake_small.jpg)
 
 > Come see all our delicious cakes
 
