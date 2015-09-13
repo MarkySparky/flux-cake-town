@@ -3,9 +3,13 @@
 
 > Come see all our delicious cakes
 
+> [Visit the cake shop](http://markysparky.github.io/flux-cake-town/dist/)
+
+
 ## Opening the cake shop
 
 ```bash
+$ npm install
 $ npm start
 ```
 
